@@ -58,6 +58,11 @@ flutter:
     - imgs/ic_me.png
     - imgs/ic_me_unselect.png
     - imgs/bg_star_us.jpg
+    - imgs/ic_person.png
+    - imgs/ic_favourites.png
+    - imgs/ic_works.png
+    - imgs/ic_seting.png
+    - imgs/ic_integral.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
