@@ -6,7 +6,11 @@ import 'package:flutter_project_practice/routes/home_page.dart';
 import 'package:flutter_project_practice/routes/main_page.dart';
 import 'package:flutter_project_practice/routes/person_page.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+  SystemUiOverlayStyle systemUiOverlayStyle = SystemUiOverlayStyle(statusBarColor: Colors.transparent);
+  SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);
+}
 
 class MyApp extends StatelessWidget {
   @override

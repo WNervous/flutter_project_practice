@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_project_practice/routes/curse_page.dart';
 import 'package:flutter_project_practice/routes/game_page.dart';
 import 'package:flutter_project_practice/routes/home_page.dart';
@@ -34,7 +35,7 @@ class MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SafeArea( child: Scaffold(
       body: PageStorage(bucket: bucket, child: pages[_bottomIndex]),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _bottomIndex,
@@ -83,7 +84,7 @@ class MainPageState extends State<MainPage> {
         ],
         onTap: _onBottomTap,
       ),
-    );
+    ));
   }
 
   void _onBottomTap(int index) {

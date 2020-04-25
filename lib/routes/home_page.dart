@@ -39,6 +39,7 @@ class HomeState extends State<HomeTabPage> with TickerProviderStateMixin {
               headerSliverBuilder: (context, isScroll) {
                 return <Widget>[
                   SliverAppBar(
+                    backgroundColor: Colors.transparent,
                     expandedHeight: 200,
                     flexibleSpace: FlexibleSpaceBar(
                       centerTitle: true,

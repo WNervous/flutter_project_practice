@@ -101,7 +101,7 @@ class _PersonPageState extends State<PersonPage> {
           padding: EdgeInsets.only(left: 20),
           decoration: BoxDecoration(
               border: Border(
-                  bottom: BorderSide(width: 1.0, color: Colors.grey[500]))),
+                  bottom: BorderSide(width: 0.5, color: Colors.grey[500]))),
           child: Row(
             children: <Widget>[
               Image.asset(
@@ -123,7 +123,7 @@ class _PersonPageState extends State<PersonPage> {
           padding: EdgeInsets.only(left: 20),
           decoration: BoxDecoration(
               border: Border(
-                  bottom: BorderSide(width: 1.0, color: Colors.grey[500]))),
+                  bottom: BorderSide(width: 0.5, color: Colors.grey[500]))),
           child: Row(
             children: <Widget>[
               Image.asset(
